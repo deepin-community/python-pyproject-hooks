@@ -1,5 +1,11 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-pyproject-hooks (1.0.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Post-NEW source-only upload
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Scott Talbert <swt@techie.net>  Tue, 01 Aug 2023 22:52:50 -0400
+
+python-pyproject-hooks (1.0.0-1) unstable; urgency=medium
+
+  * Initial packaging
+
+ -- Scott Talbert <swt@techie.net>  Tue, 01 Aug 2023 18:48:51 -0400

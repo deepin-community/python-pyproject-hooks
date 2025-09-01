@@ -1,4 +1,4 @@
 version=4
-https://pypi.python.org/packages/source/p/pyproject_hooks/ \
-    pyproject_hooks-@ANY_VERSION@@ARCHIVE_EXT@
-
+opts="filenamemangle=s%.*/@ANY_VERSION@%@PACKAGE@-$1.tar.gz%,searchmode=plain" \
+    https://api.github.com/repos/pypa/pyproject-hooks/tags?per_page=100 \
+    https://api.github.com/repos/pypa/pyproject-hooks/tarball/refs/tags/@ANY_VERSION@

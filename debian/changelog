@@ -1,3 +1,25 @@
+python-pyproject-hooks (1.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * debian/rules: Unskip previously disabled tests.
+
+ -- Boyuan Yang <byang@debian.org>  Thu, 31 Oct 2024 20:27:31 -0400
+
+python-pyproject-hooks (1.1.0-2) unstable; urgency=medium
+
+  * Skip test that fails with setuptools 70+ (Closes: #1076319)
+
+ -- Scott Talbert <swt@techie.net>  Mon, 15 Jul 2024 18:49:28 -0400
+
+python-pyproject-hooks (1.1.0-1) unstable; urgency=medium
+
+  * d/watch: Switch to GitHub tarballs to fix uscan
+  * Update to new upstream release 1.1.0
+  * Update Standards-Version to 4.7.0 (no changes needed)
+
+ -- Scott Talbert <swt@techie.net>  Mon, 03 Jun 2024 20:49:16 -0400
+
 python-pyproject-hooks (1.0.0-2) unstable; urgency=medium
 
   * Post-NEW source-only upload
